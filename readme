@@ -1,2 +1,2 @@
 1. pip install requests -- 安装网络请求模块
-2. pip install lxml -- 安装xpath解析模块
+2. pip install lxml==4.2.5 -- 安装xpath解析模块 可以在idea里边安装
