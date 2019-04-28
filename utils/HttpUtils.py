@@ -11,7 +11,9 @@ class HttpUtils:
     ## 获取pc版本的User_Agent
     def getHeadersPc(self):
         headers = {"User-Agent": self.User_Agent_PC}
+        return headers
 
     ## 获取wap版本的User_Agent
     def getHeadersWap(self):
         headers = {"User-Agent": self.User_Agent_WAP}
+        return headers
