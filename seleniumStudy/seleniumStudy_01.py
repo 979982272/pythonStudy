@@ -12,7 +12,7 @@ userLogin.click()
 loginname = driver.find_element_by_id("loginname")
 loginname.send_keys("979982272@qq.com")
 nloginpwd = driver.find_element_by_id("nloginpwd")
-nloginpwd.send_keys(httpUtils.getHeadersWap())
+nloginpwd.send_keys("your_pwd")
 loginsubmit = driver.find_element_by_id("loginsubmit")
 loginsubmit.click()
 
