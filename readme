@@ -1,3 +1,15 @@
 1. pip install requests -- 安装网络请求模块
 2. pip install lxml==4.2.5 -- 安装xpath解析模块 可以在idea里边安装
 2. pip install selenium --安装web自动化 可以在idea里边安装
+
+使用图片识别需要引入如下
+pip install baidu-aip==2.2.18.0
+pip install aircv
+pip install opencv-python
+
+百度图片识别不需要引入opencv
+pip install c://opencv_python-4.1.2.30-cp37-cp37m-win_amd64.whl
+
+// 指定下载源
+pip install turtle --trusted-host mirrors.aliyun.com
+settings->project:pythonStudy->project interpreter
