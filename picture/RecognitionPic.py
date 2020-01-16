@@ -41,7 +41,7 @@ def jude(res):
 if __name__ == '__main__':
     ## 读取网络图片
     content = requests.get(
-        'http://yzyx-guangzhou20180315-1256259170.cos-website.ap-guangzhou.myqcloud.com/2019/12/03/18/14141027_1575367443257.jpg').content
+        'http://yzyx-guangzhou20180315-1256259170.cos-website.ap-guangzhou.myqcloud.com/2020/01/05/15/14236442_1_1th.jpg').content
     ## 打开成IMG对象
     img1 = Image.open(BytesIO(content))
     ## 图片旋转
